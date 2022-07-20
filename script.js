@@ -10,7 +10,7 @@ document.body.classList.add('addition');
 
 btn.addEventListener('click', function(){
     btn.innerText = 'oop!! you got me'
-    document.body.classList.add('special');
+    document.body.classList.add('close');
 })
 
 setTimeout(function(){
