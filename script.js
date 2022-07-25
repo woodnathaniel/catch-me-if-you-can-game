@@ -14,12 +14,12 @@ window.addEventListener('keypress', function(e){
         btn.style.top = `${width}px`;
         document.body.classList.add('addition');
         })
-        // When clicked or caught...
+ // When clicked or caught...
         btn.addEventListener('click', function(){
             btn.innerText = 'oop!! you got me'
             document.body.classList.add('special').remove('addtion');
         })
-        // Game Over...
+// Game Over...
         setTimeout(function(){
         
             window.close()
